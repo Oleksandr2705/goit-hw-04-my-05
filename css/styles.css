@@ -1,11 +1,11 @@
 *,
 *::before,
 *::after {
-      box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
   background-color: #ffffff;
-       font-family: 'Roboto', Tahoma, sans-serif;
+  font-family: 'Roboto', Tahoma, sans-serif;
   font-size: 14px;
 }
 :root {
@@ -52,13 +52,13 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-  
 }
 
 /* ----Heder------------------- */
 .header {
   border-bottom: 1px solid #eeeeee;
 }
+
 .nav-container {
   display: flex;
   align-items: center;
@@ -81,6 +81,16 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+/* ------mail------*/
+.mail-footer {
+  width: 161px;
+  height: 16px;
+  fill: #757575;
+}
+.mail-footer:hover {
+  fill: #2196f3;
+}
+
 /* ----Логотип-------*/
 .logo {
   margin-right: 93px;
@@ -144,6 +154,13 @@ img {
   padding-bottom: 200px;
   background-color: #2f303a;
   text-align: center;
+
+  background-image: url(../images/foto-group.jpg);
+  /*background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-bottom: 94px;
+  outline: 2px solid tomato;*/
 }
 .hero-title {
   margin: 0 0 30px 0;
@@ -194,7 +211,6 @@ img {
 .section-benefits {
   padding-top: 94px;
   padding-bottom: 94px;
-  
 }
 .benefits-item {
   display: flex;
@@ -256,7 +272,6 @@ img {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
-  
 }
 .our-team {
   margin-bottom: 50px;
@@ -354,7 +369,6 @@ img {
 .portfolio-section-list .item {
   margin-right: 30px;
   margin-bottom: 30px;
-  
 }
 .portfolio-section-list .item:nth-child(3n) {
   margin-right: 0;
