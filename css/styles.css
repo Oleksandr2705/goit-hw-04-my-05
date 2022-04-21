@@ -5,7 +5,7 @@
 }
 body {
   background-color: #ffffff;
-  font-family: "Roboto", Tahoma, sans-serif;
+  font-family: 'Roboto', Tahoma, sans-serif;
 }
 :root {
   --header-color: #ffffff;
@@ -462,18 +462,18 @@ img {
   margin-right: 0px;
 }
 .client-list-link {
-display: block;
-padding: 16px 32px;
-width: 170px;
-height: 92px;
-border: 1px solid #afb1b8;
-box-sizing: border-box;
-border-radius: 4px;
+  display: block;
+  padding: 16px 32px;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .client-list-link:hover .clients-logo,
 .client-list-link:focus .clients-logo {
-fill: var(--hover-buton-color);
+  fill: var(--hover-buton-color);
 }
 
 .client-list-link:hover,
@@ -484,10 +484,9 @@ fill: var(--hover-buton-color);
 .clients-logo {
   display: block;
   width: 106px;
-height: 60px;
-fill: #afb1b8;
+  height: 60px;
+  fill: #afb1b8;
 }
-
 
 /* -----------Портфолио---------------- */
 
@@ -505,14 +504,12 @@ fill: #afb1b8;
 }
 .portfolio-buttons-list .item:last-child {
   margin-right: 0;
- 
 }
 
 .portfolio-section-list .icon-item:hover {
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),0px 4px 4px rgba(0, 0, 0, 0.06),
-1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 
 .portfolio-button {
   padding: 6px 22px 6px 22px;
@@ -578,7 +575,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),0px 4px 4px rgba(0, 0, 0, 0.06),
 
 /* -----------Footer----------------- */
 .footer {
-    padding-bottom: 60px;
+  padding-bottom: 60px;
   padding-top: 60px;
   background-color: #2f303a;
 }
@@ -624,17 +621,15 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),0px 4px 4px rgba(0, 0, 0, 0.06),
   margin-bottom: 0px;
 }
 .footer-web {
-display: flex;
-align-items: baseline;
+  display: flex;
+  align-items: baseline;
 }
 .footer-web .item {
-margin-right: 10px;
-
+  margin-right: 10px;
 }
 
 .footer-web .item:last-child {
-margin-right: 0;
-
+  margin-right: 0;
 }
 .footer-collums {
   margin-right: 70px;
@@ -642,29 +637,28 @@ margin-right: 0;
 
 .footer-invite {
   font-style: normal;
-margin-bottom: 20px;
-font-weight: 700;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--header-color);
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-color);
 }
 .footer-icon-font {
-display: flex;
-align-items: center;
-justify-content: center;
-width: 44px;
-height: 44px;
-border-radius: 50%;
-background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-icon-font:hover,
 .footer-icon-font:focus {
-background-color: var(--hover-buton-color);
+  background-color: var(--hover-buton-color);
 }
 .footer-icon {
-display: block;
-fill: var(--header-color);
+  display: block;
+  fill: var(--header-color);
 }
-
