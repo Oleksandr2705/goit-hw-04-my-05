@@ -62,16 +62,16 @@ img {
   width: 1200px;
 }
 
-
+.header {
+  display: flex;
+  align-items: center;
+}
 
 .nav-container {
   display: flex;
   align-items: center;
 }
-.header-nav {
-  display: flex;
-  align-items: center;
-}
+
 .header-list {
   display: flex;
 }
