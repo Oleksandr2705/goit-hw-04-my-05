@@ -5,8 +5,7 @@
 }
 body {
   background-color: #ffffff;
-  font-family: 'Roboto', Tahoma, sans-serif;
-  font-size: 14px;
+  font-family: "Roboto", Tahoma, sans-serif;
 }
 :root {
   --header-color: #ffffff;
@@ -22,6 +21,7 @@ body {
   --logo-color: #000000;
 
   --button-portfolio-colour: #f5f4fa;
+
   --icons--team-color: #afb1b8;
 }
 a {
@@ -47,6 +47,14 @@ img {
   height: auto;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  /* outline: 2px solid tomato; */
+}
 
 /* ----Heder------------------- */
 /*---- Шапка сайта------*/
