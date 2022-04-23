@@ -53,7 +53,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-  /* outline: 2px solid tomato; */
 }
 
 /* ----Heder------------------- */
@@ -62,20 +61,12 @@ img {
   border-bottom: 1px solid #eeeeee;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1200px;
-}
-
-.header {
+.nav-container {
   display: flex;
   align-items: center;
 }
 
-.nav-container {
+.header-nav {
   display: flex;
   align-items: center;
 }
@@ -84,70 +75,16 @@ img {
   display: flex;
 }
 .header-list .item {
-  margin-right: 50px;
+  margin: 50px;
 }
+
 .header-list .item:last-child {
   margin-right: 0px;
 }
 .header-list .link {
   display: block;
-  padding-top: 32px;
+  padding: 32px;
   padding-bottom: 32px;
-}
-
-/* ------mail------*/
-.mail-footer {
-  width: 161px;
-  height: 16px;
-  fill: #757575;
-}
-.mail-footer:hover {
-  fill: #2196f3;
-}
-.link-mail {
-  display: flex;
-  padding: 32px 0;
-  align-items: center;
-}
-.mail-icon {
-  margin-right: 10px;
-  fill: var(--second-text-title-color);
-}
-/* ----tel-----*/
-.link-tel {
-  display: flex;
-  padding: 32px 0;
-  align-items: center;
-}
-.tel-icon {
-  margin-right: 10px;
-  fill: var(--second-text-title-color);
-}
-
-.link-mail,
-.link-tel {
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--second-text-title-color);
-}
-.link-mail:hover .mail-icon,
-.link-mail:focus .mail-icon {
-  fill: var(--hover-buton-color);
-}
-.link-mail:hover,
-.link-mail:focus {
-  color: var(--hover-buton-color);
-}
-.link-tel:hover .tel-icon,
-.link-tel:focus .tel-icon {
-  fill: var(--hover-buton-color);
-}
-
-.link-tel:hover,
-.link-tel:focus {
-  color: var(--hover-buton-color);
 }
 
 /* ----Логотип-------*/
@@ -170,13 +107,16 @@ img {
   letter-spacing: 0.03em;
   color: var(--hover-buton-color);
 }
+
 .link {
   font-style: normal;
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-title-color);
 }
+
 .header-list .link:hover,
 .header-list .link:focus {
   color: var(--hover-buton-color);
@@ -184,6 +124,7 @@ img {
 .header-list .link.current {
   color: #2196f3;
 }
+
 /*----auth-nav-list ----*/
 .auth-nav-list {
   display: flex;
@@ -196,7 +137,67 @@ img {
   margin-right: 0px;
 }
 
-/*----два блока дополнительно -----*/
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
+
+.mail-footer:hover {
+  fill: #2196f3;
+}
+/* ----mail-----*/
+.link-mail {
+  display: flex;
+  padding: 32px 0;
+  align-items: center;
+}
+.mail-icon {
+  margin-right: 10px;
+  fill: var(--second-text-title-color);
+}
+
+/* ----tel-----*/
+.link-tel {
+  display: flex;
+  padding: 32px 0;
+  align-items: center;
+}
+.tel-icon {
+  margin-right: 10px;
+  fill: var(--second-text-title-color);
+}
+
+.link-mail,
+.link-tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-text-title-color);
+}
+.link-mail:hover .mail-icon,
+.link-mail:focus .mail-icon {
+  fill: var(--hover-buton-color);
+}
+.link-mail:hover,
+.link-mail:focus {
+  color: var(--hover-buton-color);
+}
+.link-tel:hover .tel-icon,
+.link-tel:focus .tel-icon {
+  fill: var(--hover-buton-color);
+}
+
+.link-tel:hover,
+.link-tel:focus {
+  color: var(--hover-buton-color);
+}
+
+/*----два блока дополнительно 
 
 .auth-nav-list .link {
   font-style: normal;
@@ -209,7 +210,7 @@ img {
 .auth-nav-list .link:focus {
   color: var(--hover-buton-color);
 }
-
+-----*/
 /* -----------Hero--------------------- */
 
 .hero-section {
@@ -218,18 +219,14 @@ img {
   margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  /*background-color: #2f303a;*/
   text-align: center;
 
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)),
     url(../images/foto-group.jpg);
   background-color: #2f303a;
-  /*background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
-  margin-bottom: 94px;
-  outline: 2px solid tomato;*/
-}
+  }
 .hero-title {
   margin: 0 0 30px 0;
   font-style: normal;
