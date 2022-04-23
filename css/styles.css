@@ -440,6 +440,7 @@ img {
 .clients-list-link:focus {
   border: 1px solid var(--hover-buton-color);
 }
+/* ----заливка контейнера клиента-----*/
 .clients-logo {
   display: block;
   width: 106px;
