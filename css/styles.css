@@ -155,7 +155,7 @@ img {
   color: var(--second-text-title-color);
 }
 
-.link-mail:hover .mail-icon,
+.link-mail:hover .mail-icon:hover,
 .link-mail:focus .mail-icon {
   fill: var(--hover-buton-color);
 }
