@@ -158,16 +158,16 @@ img {
 .link-mail.mail-icon:focus {
   fill: var(--hover-buton-color);
 }
-.link-mail:hover,
-.link-mail:focus {
+.link-mail .mail-icon:hover,
+.link-mail .mail-icon:focus {
   color: var(--hover-buton-color);
 }
 .link-tel .tel-icon:hover,
 .link-tel .tel-icon:focus {
   fill: var(--hover-buton-color);
 }
-.link-tel:hover,
-.link-tel:focus {
+.link-tel .tel-icon:hover,
+.link-tel .tel-icon:focus {
   color: var(--hover-buton-color);
 }
 
