@@ -154,16 +154,16 @@ img {
   letter-spacing: 0.02em;
   color: var(--second-text-title-color);
 }
-.link-mail:hover .mail-icon,
-.link-mail:focus .mail-icon {
+.link-mail .mail-icon:hover,
+.link-mail.mail-icon:focus {
   fill: var(--hover-buton-color);
 }
 .link-mail:hover,
 .link-mail:focus {
   color: var(--hover-buton-color);
 }
-.link-tel:hover .tel-icon,
-.link-tel:focus .tel-icon {
+.link-tel .tel-icon:hover,
+.link-tel .tel-icon:focus {
   fill: var(--hover-buton-color);
 }
 .link-tel:hover,
