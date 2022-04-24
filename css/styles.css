@@ -155,7 +155,7 @@ img {
   color: var(--second-text-title-color);
 }
 
-.link-mail:hover .mail-icon:hover,
+.link-mail:hover .mail-icon,
 .link-mail:focus .mail-icon {
   fill: var(--hover-buton-color);
 }
@@ -171,7 +171,14 @@ img {
 .link-tel:focus {
   color: var(--hover-buton-color);
 }
-
+.link-tel:hover,
+.link-tel:focus {
+  color: var(--hover-buton-color);
+}
+.link-mail:hover,
+.link-mail:focus {
+  color: var(--hover-buton-color);
+}
 /* ----Главная------- */
 
 .hero-section {
