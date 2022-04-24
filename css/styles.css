@@ -154,20 +154,20 @@ img {
   letter-spacing: 0.02em;
   color: var(--second-text-title-color);
 }
-.link-mail .mail-icon:hover,
-.link-mail .mail-icon:focus {
+.link-mail:hover .mail-icon,
+.link-mail:focus .mail-icon {
   fill: var(--hover-buton-color);
 }
-.link-mail .mail-icon:hover,
-.link-mail .mail-icon:focus {
+.link-mail:hover .mail-icon,
+.link-mail:focus .mail-icon {
   color: var(--hover-buton-color);
 }
-.link-tel .tel-icon:hover,
-.link-tel .tel-icon:focus {
+.link-tel:hover .tel-icon,
+.link-tel:focus .tel-icon {
   fill: var(--hover-buton-color);
 }
-.link-tel .tel-icon:hover,
-.link-tel .tel-icon:focus {
+.link-tel:hover .tel-icon,
+.link-tel:focus .tel-icon {
   color: var(--hover-buton-color);
 }
 
