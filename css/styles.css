@@ -154,6 +154,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--second-text-title-color);
 }
+
 .link-mail:hover .mail-icon,
 .link-mail:focus .mail-icon {
   fill: var(--hover-buton-color);
@@ -163,7 +164,6 @@ img {
   color: var(--hover-buton-color);
 }
 .link-tel:hover .tel-icon,
-,
 .link-tel:focus .tel-icon {
   fill: var(--hover-buton-color);
 }
