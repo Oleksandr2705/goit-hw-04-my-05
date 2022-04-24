@@ -171,14 +171,7 @@ img {
 .link-tel:focus {
   color: var(--hover-buton-color);
 }
-.link-tel:hover,
-.link-tel:focus {
-  color: var(--hover-buton-color);
-}
-.link-mail:hover,
-.link-mail:focus {
-  color: var(--hover-buton-color);
-}
+
 /* ----Главная------- */
 
 .hero-section {
