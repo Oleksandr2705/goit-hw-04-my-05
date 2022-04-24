@@ -5,7 +5,7 @@
 }
 body {
   background-color: #ffffff;
-  font-family: "Roboto", Tahoma, sans-serif;
+  font-family: 'Roboto', Tahoma, sans-serif;
 }
 :root {
   --header-color: #ffffff;
@@ -181,10 +181,7 @@ img {
   padding-bottom: 200px;
   text-align: center;
 
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/foto-group.jpg);
   background-color: #2f303a;
 }
@@ -253,10 +250,10 @@ img {
 }
 .benefits-slide {
   margin-bottom: 30px;
-  /*padding: 25px 100px;*/
+  padding: 25px 100px;
   display: flex;
-  justify-content: center
-  align-items: center
+  /*justify-content: center
+  align-items: center*/
   width: 270px;
   height: 120px;
   border-radius: 4px;
