@@ -395,12 +395,7 @@ img {
 .icon-item:last-child {
   margin-right: 0;
 }
-/*.icon-item:hover .icon-team,
-.icon-item:focus .icon-team {
-  fill: var(--header-color);
-}
-    
-*/
+
 .icon-item:hover .icon-team,
 .icon-item:focus .icon-team {
   fill: var(--header-color);
