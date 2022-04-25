@@ -108,10 +108,17 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-text-title-color);
 }
-.header-list .link:hover,
+/*.header-list .link:hover,
 .header-list .link:focus {
   color: var(--hover-buton-color);
+}*/
+
+.link-tel:hover .tel-icon,
+.link-tel:focus .tel-icon {
+  fill: #188ce8;
+  color: #2196f3;
 }
+
 .header-list .link.current {
   color: #2196f3;
 }
