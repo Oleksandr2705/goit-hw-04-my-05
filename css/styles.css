@@ -240,7 +240,7 @@ img {
 .section-benefits {
   padding-top: 94px;
   padding-bottom: 94px;
-  /* outline: 2px solid tomato; */
+  
 }
 .benefits-item {
   display: flex;
@@ -319,7 +319,7 @@ img {
   padding-bottom: 94px;
   background-color: #f5f4fa;
 
-  /* outline: 2px solid tomato; */
+  
 }
 .our-team {
   margin-bottom: 50px;
@@ -377,7 +377,7 @@ img {
   justify-content: center;
   align-items: center;
 
-  /* outline: 1px solid tomato; */
+  
 }
 .link-team-icon {
   display: flex;
@@ -406,8 +406,7 @@ img {
 .icon-item:focus .icon-team {
   fill: var(--header-color);
 }
-/* .icon-item:hover {
-  background-color: var(--hover-buton-color);
+
 } */
 .icon-item:last-child {
   margin-right: 0;
