@@ -5,7 +5,7 @@
 }
 body {
   background-color: #ffffff;
-  font-family: 'Roboto', Tahoma, sans-serif;
+  font-family: "Roboto", Tahoma, sans-serif;
 }
 :root {
   --header-color: #ffffff;
@@ -53,11 +53,14 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
+  /* outline: 2px solid tomato; */
 }
 
-/* ---Шапка----------------------------------- */
+/* ---------------------------------ШАПКА САЙТА----------------------------------- */
 .header {
   border-bottom: 1px solid #eeeeee;
+
+  /* outline: 2px solid tomato; */
 }
 .nav-container {
   display: flex;
@@ -108,17 +111,10 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-text-title-color);
 }
-/*.header-list .link:hover,
+.header-list .link:hover,
 .header-list .link:focus {
   color: var(--hover-buton-color);
-}*/
-
-.link-tel:hover .tel-icon,
-.link-tel:focus .tel-icon {
-  fill: #188ce8;
-  color: #2196f3;
 }
-
 .header-list .link.current {
   color: #2196f3;
 }
@@ -178,7 +174,7 @@ img {
   color: var(--hover-buton-color);
 }
 
-/* ----Главная------- */
+/* ---------------------------------ГЛАВНЫЙ КОНТЕНТ----------------------------------- */
 
 .hero-section {
   max-width: 1600px;
@@ -188,8 +184,11 @@ img {
   padding-bottom: 200px;
   text-align: center;
 
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/foto-group.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/hero-background.jpg);
   background-color: #2f303a;
 }
 .hero-title {
@@ -241,6 +240,7 @@ img {
 .section-benefits {
   padding-top: 94px;
   padding-bottom: 94px;
+  /* outline: 2px solid tomato; */
 }
 .benefits-item {
   display: flex;
@@ -256,14 +256,10 @@ img {
   margin-right: 0;
 }
 .benefits-slide {
-  margin-bottom: 30px;
-  /*padding: 25px 100px;
-  display: flex;
-  justify-content: center
-  align-items: center*/
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
   width: 270px;
   height: 120px;
   border-radius: 4px;
@@ -317,11 +313,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-text-title-color);
 }
-/* ---Наша команда------- */
+/* ---------------------------------НАША КОМАНДА----------------------------------- */
 .our-team-section {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
+
+  /* outline: 2px solid tomato; */
 }
 .our-team {
   margin-bottom: 50px;
@@ -378,6 +376,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  /* outline: 1px solid tomato; */
 }
 .link-team-icon {
   display: flex;
@@ -402,12 +402,13 @@ img {
 .icon-item:last-child {
   margin-right: 0;
 }
-
 .icon-item:hover .icon-team,
 .icon-item:focus .icon-team {
   fill: var(--header-color);
 }
-
+/* .icon-item:hover {
+  background-color: var(--hover-buton-color);
+} */
 .icon-item:last-child {
   margin-right: 0;
 }
@@ -415,10 +416,13 @@ img {
   display: block;
   fill: var(--icons--team-color);
 }
-/* ----Наши клиенты------ */
+/* ---------------------------------НАШИ КЛИЕНТЫ----------------------------------- */
 
 .clients-section {
-  padding: 94px 94px;
+  padding-bottom: 94px;
+  padding-top: 94px;
+  padding-left: 0;
+  padding-right: 0;
   background-color: var(--header-color);
 }
 .clients-list {
@@ -436,8 +440,10 @@ img {
 }
 
 .clients-list-link {
-  display: block;
-  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -452,7 +458,7 @@ img {
 .clients-list-link:focus {
   border: 1px solid var(--hover-buton-color);
 }
-/* ----заливка контейнера клиента-----*/
+
 .clients-logo {
   display: block;
   width: 106px;
@@ -460,7 +466,7 @@ img {
   fill: #afb1b8;
 }
 
-/* -- Портфолио------ */
+/* ---------------------------------СТРАНИЦА ПОРТФОЛИО----------------------------------- */
 
 .portfolio-section {
   padding-top: 94px;
@@ -477,9 +483,15 @@ img {
 .portfolio-buttons-list .item:last-child {
   margin-right: 0;
 }
-.portfolio-section-list .item:hover {
+
+.card-link:hover,
+.card-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card-link {
+  display: block;
 }
 .portfolio-button {
   padding: 6px 22px 6px 22px;
@@ -513,6 +525,7 @@ img {
 .portfolio-section-list .item {
   margin-right: 30px;
   margin-bottom: 30px;
+  /* outline: 1px solid tomato; */
 }
 .portfolio-section-list .item:nth-child(3n) {
   margin-right: 0;
@@ -543,7 +556,7 @@ img {
   border-right: 1px solid #eeeeee;
 }
 
-/* ------Подвал--------------- */
+/* ---------------------------------ПОДВАЛ----------------------------------- */
 .footer {
   padding-bottom: 60px;
   padding-top: 60px;
